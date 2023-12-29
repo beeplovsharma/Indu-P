@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImage from '../assets/heroImage.png'
 import { MdArrowRight ,MdArrowDropDown  } from "react-icons/md";
+import {Link} from "react-scroll"
 const Hero = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Hero = () => {
             <p className='text-gray-400 md:text-start text-center w-2/3 mx-auto md:mx-0 py-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta sunt optio ab voluptas nihil?</p>
             
             <button className='text-white flex justify-center items-center w-fit px-4 py-2 rounded-md bg-gradient-to-r from-cyan-500 group to-blue-500 cursor-pointer'>
-                Portfolio
+                <Link to='portfolio' smooth duration={500}>Portfolio</Link>
                 <span className='group-hover:rotate-90 duration-300'>
                   <MdArrowRight size={20}/>
                 </span>
