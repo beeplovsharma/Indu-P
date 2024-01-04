@@ -12,8 +12,8 @@ const Hero = () => {
           </div>
 
           <div className='md:h-screen flex flex-col justify-center items-center md:items-start md:w-[50%] md:px-[5vw] px-5'>
-            <h1 className='text-4xl md:text-6xl font-bold text-white text-center md:text-start'>I'm a Full Stack <br /> Developer</h1>
-            <p className='text-gray-400 md:text-start text-center w-2/3 mx-auto md:mx-0 py-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dicta sunt optio ab voluptas nihil?</p>
+            <h1 className='text-4xl md:text-6xl font-bold text-white text-center md:text-start'>Indrani <br /> Pal</h1>
+            <p className='text-gray-400 md:text-start text-center w-2/3 mx-auto md:mx-0 py-5'>A full stack web alchemist, creating elixirs of code while trying to attain the arcanum, transmutating codes into functionalities, trying to attain the quintessential esoteric of coding and development. 🚀</p>
             
             <button className='text-white flex justify-center items-center w-fit px-4 py-2 rounded-md bg-gradient-to-r from-cyan-500 group to-blue-500 cursor-pointer'>
                 <Link to='portfolio' smooth duration={500}>Portfolio</Link>
